@@ -23,7 +23,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		
-		<sonar.host.url>http://http://100.26.40.42:5000/</sonar.host.url>
+		<sonar.host.url>http://100.26.40.42:5000/</sonar.host.url>
 		
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.25.226:3900/landmark/repository/tesla-fe-releases/</url>
+	      <url>http://100.26.40.42:3900/landmark/repository/tesla-fe-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.25.226:3900/repository/snapshot-ebay-ci/</url>
+	      <url>http://100.26.40.42:3900/repository/snapshot-ebay-ci/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
